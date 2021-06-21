@@ -14,42 +14,8 @@ export const Title = styled.span`
 export const Likes = styled.span`
 	color: #bb8588;
 `;
-export const SocialLinkPdf = styled.a`
-	border: none;
-	color: #a5a58d;
-	cursor: pointer;
-	font-size: 18px;
-	float: left;
-	margin-right: 15px;
-	&:hover {
-		color: #bb8588;
-	}
-`;
-export const SocialLinkContainer = styled.div``;
 
-export const SocialLinkLinkedin = styled.a`
-	border: none;
-	color: #a5a58d;
-	cursor: pointer;
-	font-size: 18px;
-	float: left;
-	margin-right: 15px;
-	&:hover {
-		color: #bb8588;
-	}
-`;
-export const SocialLinkGithub = styled.a`
-	border: none;
-	color: #a5a58d;
-	cursor: pointer;
-	font-size: 18px;
-	float: left;
-	margin-right: 15px;
-	&:hover {
-		color: #bb8588;
-	}
-`;
-export const SocialLinkTwitter = styled.a`
+export const SocialLink = styled.a`
 	border: none;
 	color: #a5a58d;
 	cursor: pointer;

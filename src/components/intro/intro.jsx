@@ -22,29 +22,27 @@ const Intro = () => {
 				Y me gusta
 				<S.Likes>{likes[likesIndex]}</S.Likes>
 			</S.IntroContainer>
-			<S.SocialLinkContainer>
-				<S.SocialLinkPdf href="CVBeatriz.pdf" download="CVBeatriz">
+				<S.SocialLink href="CVBeatriz.pdf" download="CVBeatriz">
 					<Icon name="file pdf" /> CV
-				</S.SocialLinkPdf>
-				<S.SocialLinkGithub
+				</S.SocialLink>
+				<S.SocialLink
 					href="https://www.github.com/Maryery"
 					target="_blank"
 				>
 					<Icon name="github" /> GitHub
-				</S.SocialLinkGithub>
-				<S.SocialLinkLinkedin
+				</S.SocialLink>
+				<S.SocialLink
 					href="https://www.linkedin.com/in/maryeryvargas"
 					target="_blank"
 				>
 					<Icon name="linkedin" /> Linkedin
-				</S.SocialLinkLinkedin>
-				<S.SocialLinkTwitter
+				</S.SocialLink>
+				<S.SocialLink
 					href="https://twitter.com/ellabinaria00"
 					target="_blank"
 				>
 					<Icon name="twitter" /> Twitter
-				</S.SocialLinkTwitter>
-			</S.SocialLinkContainer>
+				</S.SocialLink>
 		</>
 	);
 };
