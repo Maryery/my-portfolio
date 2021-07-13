@@ -14,9 +14,9 @@ const Intro = () => {
 
 	return (
 		<>
-			<S.IntroContainer size="huge" color="dark grey">
+			<S.IntroContainer >
 				¡Hola! Soy Maryery, soy
-				<S.Title size="huge" color="pink">
+				<S.Title >
 					Junior Front End developer
 				</S.Title>
 				Y me gusta

@@ -19,9 +19,9 @@ export const ProjectContainer = styled.article`
 	width: 90%;
 	margin: 10px;
 
-	@media all and (min-width: 400px) {
+	@media all and (min-width: 375px) {
 		height: 300px;
-		width: 500px;
+		width: 400px;
 	}
 
 	@media all and (min-width: 768px) {
@@ -59,7 +59,6 @@ export const ProjectInfo = styled.div`
 	height: 100%;
 	width: 100%;
 	background-color: #dbd3d8;
-	position: absolute;
 	bottom: 0;
 	padding: 30px;
 	z-index: -1;

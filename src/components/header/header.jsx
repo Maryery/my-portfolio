@@ -4,7 +4,7 @@ import * as S from './styles';
 
 const Header = () => (
 	<Menu secondary>
-		<Menu.Menu position="right">
+		<Menu.Menu position="left">
 			<Menu.Item>
 				<S.ButtonContent color="light grey">
 					Proyectos
