@@ -13,7 +13,7 @@ const Intro = () => {
 	}, []);
 
 	return (
-		<>
+		<S.Container>
 			<S.IntroContainer >
 				¡Hola! Soy Maryery, soy
 				<S.Title >
@@ -43,7 +43,8 @@ const Intro = () => {
 				>
 					<Icon name="twitter" /> Twitter
 				</S.SocialLink>
-		</>
+				<S.Skewed></S.Skewed>
+		</S.Container>
 	);
 };
 

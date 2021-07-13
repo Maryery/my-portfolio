@@ -1,5 +1,11 @@
 import styled from '@emotion/styled';
-import { Button } from 'semantic-ui-react';
+import { Button, Menu } from 'semantic-ui-react';
+
+export const MainMenu = styled(Menu)`
+	background-color: #f3f2f0 !important;
+	margin-bottom: 0px !important;
+	padding-left: 30px;
+`;
 
 export const ButtonContent = styled(Button)`
 	font-family: 'Poppins', sans-serif !important;

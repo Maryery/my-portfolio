@@ -3,7 +3,7 @@ import { Menu } from 'semantic-ui-react';
 import * as S from './styles';
 
 const Header = () => (
-	<Menu secondary>
+	<S.MainMenu secondary>
 		<Menu.Menu position="left">
 			<Menu.Item>
 				<S.ButtonContent color="light grey">
@@ -21,7 +21,7 @@ const Header = () => (
 				</S.ButtonContent>
 			</Menu.Item>
 		</Menu.Menu>
-	</Menu>
+	</S.MainMenu>
 );
 
 export default Header;

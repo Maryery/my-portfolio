@@ -3,8 +3,9 @@ import styled from '@emotion/styled';
 export const ProjectsHeading = styled.h2`
 	text-align: center;
 	margin-bottom: 40px;
-	margin-top: 60px;
+	margin-top: 0px;
 	font-size: 24px;
+	position: relative;
 `;
 
 export const ProjectsContainer = styled.section`
