@@ -21,5 +21,3 @@ export const ProjectItem = styled.div`
 	flex-wrap: wrap;
 	justify-content: space-around;
 `;
-
-

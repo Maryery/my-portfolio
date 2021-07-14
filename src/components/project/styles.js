@@ -1,11 +1,11 @@
 import styled from '@emotion/styled/macro';
 
-
 export const ProjectImageContainer = styled.div`
 	position: absolute;
-	top: 0;
 	width: 100%;
 	height: 65%;
+	background-color: #dbd3d8;
+	marging-top: 15px !important;
 	transition: 1s ease-in-out;
 
 	@media all and (min-width: 768px) {
@@ -38,6 +38,11 @@ export const ProjectContainer = styled.article`
 export const ImageItem = styled.img`
 	width: 100%;
 	height: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	border-top-left-radius: 35px 40px;
+	border-top-right-radius: 35px 40px;
 	object-fit: cover;
 `;
 
@@ -58,7 +63,7 @@ export const ProjectInfo = styled.div`
 	justify-content: flex-end;
 	height: 100%;
 	width: 100%;
-	background-color: #dbd3d8;
+	background-color: #f3f2f0;
 	bottom: 0;
 	padding: 30px;
 	z-index: -1;
@@ -90,7 +95,7 @@ export const ProjectHiddenInfo = styled.div`
 	flex-direction: column;
 	justify-content: flex-start;
 
-	@media all and (min-width:768px) {
+	@media all and (min-width: 768px) {
 		justify-content: center;
 	}
 `;
