@@ -4,19 +4,19 @@ import * as S from './styles';
 
 const Header = () => (
 	<S.MainMenu secondary>
-		<Menu.Menu position="left">
+		<Menu.Menu position="right">
 			<Menu.Item>
-				<S.ButtonContent color="light grey">
+				<S.ButtonContent>
 					Proyectos
 				</S.ButtonContent>
 			</Menu.Item>
 			<Menu.Item>
-				<S.ButtonContent color="grey">
+				<S.ButtonContent>
 					Sobre mi
 				</S.ButtonContent>
 			</Menu.Item>
 			<Menu.Item>
-				<S.ButtonContent color="grey">
+				<S.ButtonContent>
 					Contactos
 				</S.ButtonContent>
 			</Menu.Item>
