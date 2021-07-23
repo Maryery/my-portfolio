@@ -20,9 +20,11 @@ export const IntroContainer = styled.h1`
 		font-size: 50px;
 	}
 `;
+
 export const Title = styled.span`
 	color: #ffa18e;
 `;
+
 export const Likes = styled.span`
 	color: #bb8588;
 `;
