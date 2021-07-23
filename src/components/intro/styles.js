@@ -12,7 +12,7 @@ export const IntroContainer = styled.h1`
 	flex-direction: column;
 	margin-left: 0px;
 	margin-top: 0px;
-	padding-left: 30px;
+	padding-left: 15px;
 	padding-top: 120px;
 	text-align: left;
 
@@ -36,7 +36,7 @@ export const SocialLink = styled.a`
 	font-size: 12px;
 	float: left;
 	margin-right: 15px;
-	padding-left: 30px;
+	padding-left: 15px;
 
 	@media all and (min-width: 768px) {
 		font-size: 18px;
