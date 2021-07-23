@@ -4,7 +4,7 @@ import fotocv from '../../assets/images/fotocv.jpg';
 
 const AboutMe = () => {
 	return (
-		<S.AboutMeContainer>
+		<S.AboutMeContainer id="about">
 			<S.SkewedAboutContainer>
 				<S.SkewedAbout></S.SkewedAbout>
 			</S.SkewedAboutContainer>

@@ -5,7 +5,7 @@ import Project from '../project/project';
 const Projects = ({ data }) => {
 	return (
 		<>
-			<S.ProjectsHeading>Mis Proyectos</S.ProjectsHeading>
+			<S.ProjectsHeading id="project">Mis Proyectos</S.ProjectsHeading>
 			<S.ProjectsContainer>
 				<S.ProjectItem>
 					{data.map(({ title, description, img, githubLink, webLink, skills }) => (

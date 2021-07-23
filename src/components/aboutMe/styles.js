@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 
 export const AboutMeContainer = styled.section`
 	position: relative;
+	height: 100vh;
 	z-index: -1;
 `;
 

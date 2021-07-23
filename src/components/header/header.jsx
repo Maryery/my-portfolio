@@ -6,12 +6,12 @@ const Header = () => (
 	<S.MainMenu secondary>
 		<Menu.Menu position="right">
 			<Menu.Item>
-				<S.ButtonContent>
+				<S.ButtonContent as="a" href="#project">
 					Proyectos
 				</S.ButtonContent>
 			</Menu.Item>
 			<Menu.Item>
-				<S.ButtonContent>
+				<S.ButtonContent as="a" href="#about">
 					Sobre mi
 				</S.ButtonContent>
 			</Menu.Item>
