@@ -17,7 +17,7 @@ const Intro = () => {
 			<S.IntroContainer >
 				¡Hola! Soy Maryery, soy
 				<S.Title >
-					Junior Front End developer
+					Trainee Software Engineer
 				</S.Title>
 				Y me gusta
 				<S.Likes>{likes[likesIndex]}</S.Likes>

@@ -16,7 +16,7 @@ const Header = () => (
 				</S.ButtonContent>
 			</Menu.Item>
 			<Menu.Item>
-				<S.ButtonContent>
+				<S.ButtonContent as="a" href="#contact">
 					Contactos
 				</S.ButtonContent>
 			</Menu.Item>

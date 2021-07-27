@@ -5,6 +5,7 @@ import Intro from './components/intro/intro';
 import Projects from './components/projects/projects';
 import PROJECTS_INFO from '../src/data/projects';
 import AboutMe from './components/aboutMe/aboutMe';
+import Contact from './components/contact/contact';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 				<Intro />
 				<Projects data={PROJECTS_INFO} />
 				<AboutMe />
+				<Contact />
 			</div>
 		</BrowserRouter>
 	);
