@@ -27,7 +27,6 @@ export const ContactMailLink = styled.a`
 	padding-left: 15px;
 	font-size: 24px;
 	color: #444;
-	padding-bottom: 20px;
 	&:hover {
 		background-color: #ddbea9;
 		margin-left: 15px;
