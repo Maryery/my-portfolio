@@ -20,13 +20,19 @@ export const ContactText = styled.p`
 `;
 
 export const ContactLinkContainer = styled.div`
-	padding-bottom: 20px;	
+	padding-bottom: 20px;
 `;
 
 export const ContactMailLink = styled.a`
-padding-left: 15px;
-font-size: 24px;
-text-decoration: none;
-color: #a5a58d;
-
+	padding-left: 15px;
+	font-size: 24px;
+	color: #444;
+	padding-bottom: 20px;
+	&:hover {
+		background-color: #ddbea9;
+		margin-left: 15px;
+		padding-right: 15px;
+		transition: 1s ease-in-out;
+		color: #444;
+	}
 `;

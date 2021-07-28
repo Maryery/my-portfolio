@@ -13,7 +13,13 @@ const Contact = () => {
 				proyectos o simplemente quieres charlar, ¡no dudes en contactarme!{' '}
 			</S.ContactText>
 			<S.ContactLinkContainer>
-				<S.ContactMailLink>maryeryvargas@gmail.com</S.ContactMailLink>
+				<S.ContactMailLink
+					href="mailto:maryeryvargas@gmail.com"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					maryeryvargas@gmail.com
+				</S.ContactMailLink>
 			</S.ContactLinkContainer>
 			<Link />
 		</S.Contact>

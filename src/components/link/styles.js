@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 export const LinkContainer = styled.div`
 	position: absolute;
 	z-index: auto;
+	padding-bottom: 20px
 `;
 
 export const SocialLink = styled.a`
