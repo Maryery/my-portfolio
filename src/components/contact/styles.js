@@ -20,6 +20,7 @@ export const ContactText = styled.p`
 `;
 
 export const ContactLinkContainer = styled.div`
+	padding-bottom: 20px;	
 `;
 
 export const ContactMailLink = styled.a`
@@ -27,4 +28,5 @@ padding-left: 15px;
 font-size: 24px;
 text-decoration: none;
 color: #a5a58d;
+
 `;

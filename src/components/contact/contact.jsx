@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '../link/link';
 import * as S from './styles';
 
 const Contact = () => {
@@ -6,7 +7,6 @@ const Contact = () => {
 		<S.Contact id="contact">
 			<S.ContactHeading>¿Hablamos?</S.ContactHeading>
 			<S.ContactText>
-				{' '}
 				Estoy siempre abierta a aprender y, además... ¡Buscando mi primera
 				oportunidad como desarrolladora Front End! Si crees que mi perfil
 				profesional encaja con lo que buscas, quieres darme feedback sobre mis
@@ -15,6 +15,7 @@ const Contact = () => {
 			<S.ContactLinkContainer>
 				<S.ContactMailLink>maryeryvargas@gmail.com</S.ContactMailLink>
 			</S.ContactLinkContainer>
+			<Link />
 		</S.Contact>
 	);
 };

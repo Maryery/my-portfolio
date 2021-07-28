@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Icon } from 'semantic-ui-react';
+import Link from '../link/link';
 import * as S from './styles';
 const likes = ['el diseño', 'resolver problemas', 'aprender cosas nuevas'];
 
@@ -22,27 +22,7 @@ const Intro = () => {
 				Y me gusta
 				<S.Likes>{likes[likesIndex]}</S.Likes>
 			</S.IntroContainer>
-				<S.SocialLink href="CVBeatriz.pdf" download="CVBeatriz">
-					<Icon name="file pdf" /> CV
-				</S.SocialLink>
-				<S.SocialLink
-					href="https://www.github.com/Maryery"
-					target="_blank"
-				>
-					<Icon name="github" /> GitHub
-				</S.SocialLink>
-				<S.SocialLink
-					href="https://www.linkedin.com/in/maryeryvargas"
-					target="_blank"
-				>
-					<Icon name="linkedin" /> Linkedin
-				</S.SocialLink>
-				<S.SocialLink
-					href="https://twitter.com/ellabinaria00"
-					target="_blank"
-				>
-					<Icon name="twitter" /> Twitter
-				</S.SocialLink>
+			<Link />
 				<S.Skewed></S.Skewed>
 		</S.Container>
 	);
