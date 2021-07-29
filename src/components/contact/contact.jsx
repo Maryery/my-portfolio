@@ -8,7 +8,7 @@ const Contact = () => {
 			<S.ContactHeading>¿Hablamos?</S.ContactHeading>
 			<S.ContactText>
 				Estoy siempre abierta a aprender y, además... ¡Buscando mi primera
-				oportunidad como desarrolladora Front End! Si crees que mi perfil
+				oportunidad como Desarrolladora Web Junior! Si crees que mi perfil
 				profesional encaja con lo que buscas, quieres darme feedback sobre mis
 				proyectos o simplemente quieres charlar, ¡no dudes en contactarme!{' '}
 			</S.ContactText>
