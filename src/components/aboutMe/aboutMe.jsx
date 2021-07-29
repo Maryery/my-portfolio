@@ -27,10 +27,20 @@ const AboutMe = () => {
 						<S.TitleSkills>Skills</S.TitleSkills>
 						<S.AboutMeSkillsContainer>
 							<S.AboutMeSkillsList>
-								<S.AboutMeSkillsListItem>HTML</S.AboutMeSkillsListItem>
-								<S.AboutMeSkillsListItem>CSS</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>HTML5</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>CSS3</S.AboutMeSkillsListItem>
 								<S.AboutMeSkillsListItem>JAVASCRIPT</S.AboutMeSkillsListItem>
-								<S.AboutMeSkillsListItem>REACT</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>REACTJS</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>NODEJS</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>EXPRESS</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>MONGODB</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>NPM</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>WORDPRESS</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>PHP</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>GIT</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>GITHUB</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>UX</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>INGLES(B2)</S.AboutMeSkillsListItem>
 							</S.AboutMeSkillsList>
 						</S.AboutMeSkillsContainer>
 					</S.AboutMeSkills>
