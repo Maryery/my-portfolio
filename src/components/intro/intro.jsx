@@ -14,16 +14,13 @@ const Intro = () => {
 
 	return (
 		<S.Container>
-			<S.IntroContainer >
+			<S.IntroContainer>
 				¡Hola! Soy Maryery, soy
-				<S.Title >
-					Trainee Software Engineer
-				</S.Title>
-				Y me gusta
+				<S.Title>Junior Software Engineer</S.Title>Y me gusta
 				<S.Likes>{likes[likesIndex]}</S.Likes>
 			</S.IntroContainer>
 			<Link />
-				<S.Skewed></S.Skewed>
+			<S.Skewed></S.Skewed>
 		</S.Container>
 	);
 };

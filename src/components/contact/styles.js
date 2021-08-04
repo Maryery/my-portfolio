@@ -1,8 +1,15 @@
 import styled from '@emotion/styled';
 
 export const Contact = styled.section`
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0px 60px 0px;	
+	margin-left: 50px;
 	width: 100%;
-	margin-top 40px;
+
+	@media all and (min-width: 768px) {
+		margin-top 40px;
+	}
 `;
 
 export const ContactHeading = styled.h2`

@@ -4,6 +4,7 @@ import * as S from './styles';
 
 const Contact = () => {
 	return (
+		<>
 		<S.Contact id="contact">
 			<S.ContactHeading>¿Hablamos?</S.ContactHeading>
 			<S.ContactText>
@@ -21,8 +22,9 @@ const Contact = () => {
 					maryeryvargas@gmail.com
 				</S.ContactMailLink>
 			</S.ContactLinkContainer>
-			<Link />
 		</S.Contact>
+		<Link />
+		</>
 	);
 };
 
