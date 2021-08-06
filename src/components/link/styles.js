@@ -15,6 +15,10 @@ export const SocialLink = styled.a`
 	margin-right: 15px;
 	padding-left: 15px;
 
+	@media all and (max-width: 360px){
+		font-size: 10px;
+	}
+
 	@media all and (min-width: 768px) {
 		font-size: 18px;
 	}

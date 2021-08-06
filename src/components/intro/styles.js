@@ -29,8 +29,6 @@ export const Likes = styled.span`
 	color: #bb8588;
 `;
 
-
-
 export const Skewed = styled.div`
 	top: 100%;
 	right: 0;
