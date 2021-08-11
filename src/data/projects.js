@@ -7,7 +7,7 @@ const PROJECTS_INFO = [
 	{
 		title: 'Coming Soon!',
 		description:
-			'Encuentra tu destino de viaje y toda la infomación que debes saber acerca de las restricciones COVID-19',
+			'Encuentra tu destino de viaje y toda la infomación que debes saber acerca de las restricciones COVID-19.',
 		githubLink: '',
 		img: commingSoon,
 		skills: ['REACT'],
@@ -15,7 +15,7 @@ const PROJECTS_INFO = [
 	{
 		title: 'Wallaclone',
 		description:
-		'Es una plataforma que permite la compra y venta de productos de segunda mano, similar a aplicaciones como wallapop, ebay,etc',
+		'Es una plataforma que permite la compra y venta de productos de segunda mano, similar a aplicaciones como wallapop, ebay,etc.',
 		githubLink: 'https://github.com/Maryery/wallaclone.git',
 		img: wallaclone,
 		skills: ['MONGO', 'EXPRESS', 'REACT', 'NODE'],
@@ -23,7 +23,7 @@ const PROJECTS_INFO = [
 	{
 		title: 'Pokémon Bay',
 		description:
-		'Es una aplicación web, que utiliza LA RESTful API de Pokémon (http://pokeapi.co/), la cual te permite encontrar tu pokemon favorito',
+		'Es una aplicación web, que utiliza LA RESTful API de Pokémon (http://pokeapi.co/), la cual te permite encontrar tu pokemon favorito.',
 		githubLink: 'https://github.com/Maryery/pokemon-bay',
 		webLink: 'http://pokemon.beatrizvargasmoreno.com',
 		img: pokemonBay,

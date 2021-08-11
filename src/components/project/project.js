@@ -1,6 +1,5 @@
 import React from 'react';
 import Badge from '../badge/badge';
-import { Icon } from 'semantic-ui-react';
 import * as S from './styles';
 
 const Project = ({ title, img, description, githubLink, webLink, skills }) => (
@@ -13,10 +12,10 @@ const Project = ({ title, img, description, githubLink, webLink, skills }) => (
 				<S.DescriptionInfo>{description}</S.DescriptionInfo>
 				<S.ProjectIcons>
 					<S.LinkItem href={githubLink} target="_blank">
-						<Icon link name="github" size="big" />
+						<S.IconItem name="github" size="big" />
 					</S.LinkItem>
 					<S.LinkItem href={webLink} target="_blank">
-						<Icon name="computer" size="big" />
+						<S.IconItem name="computer" size="big" />
 					</S.LinkItem>
 				</S.ProjectIcons>
 			</S.ProjectHiddenInfo>

@@ -1,4 +1,6 @@
 import styled from '@emotion/styled/macro';
+import { Icon } from 'semantic-ui-react';
+
 
 export const ProjectImageContainer = styled.div`
 	position: absolute;
@@ -44,6 +46,7 @@ export const ImageItem = styled.img`
 	border-top-left-radius: 35px 40px;
 	border-top-right-radius: 35px 40px;
 	object-fit: cover;
+	position: relative;
 `;
 
 export const DescriptionInfo = styled.p`
@@ -94,6 +97,7 @@ export const ProjectHiddenInfo = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	
 
 	@media all and (min-width: 768px) {
 		justify-content: center;
@@ -116,3 +120,5 @@ export const ProjectSkills = styled.div`
 	display: inline-block;
 	padding-right: 0px;
 `;
+
+export const IconItem = styled(Icon)``;
