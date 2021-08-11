@@ -8,22 +8,24 @@ const PROJECTS_INFO = [
 		title: 'Coming Soon!',
 		description:
 			'Encuentra tu destino de viaje y toda la infomación que debes saber acerca de las restricciones COVID-19.',
-		githubLink: '',
+		githubLink: null,
+		webLink: null,
 		img: commingSoon,
 		skills: ['REACT'],
 	},
 	{
 		title: 'Wallaclone',
 		description:
-		'Es una plataforma que permite la compra y venta de productos de segunda mano, similar a aplicaciones como wallapop, ebay,etc.',
+			'Es una plataforma que permite la compra y venta de productos de segunda mano, similar a aplicaciones como wallapop, ebay,etc.',
 		githubLink: 'https://github.com/Maryery/wallaclone.git',
+		webLink: null,
 		img: wallaclone,
 		skills: ['MONGO', 'EXPRESS', 'REACT', 'NODE'],
 	},
 	{
 		title: 'Pokémon Bay',
 		description:
-		'Es una aplicación web, que utiliza LA RESTful API de Pokémon (http://pokeapi.co/), la cual te permite encontrar tu pokemon favorito.',
+			'Es una aplicación web, que utiliza LA RESTful API de Pokémon (http://pokeapi.co/), la cual te permite encontrar tu pokemon favorito.',
 		githubLink: 'https://github.com/Maryery/pokemon-bay',
 		webLink: 'http://pokemon.beatrizvargasmoreno.com',
 		img: pokemonBay,
@@ -32,12 +34,12 @@ const PROJECTS_INFO = [
 	{
 		title: 'HBO',
 		description:
-		'Es una plataforma de streaming de contenido digital similiar a HBO, para distribuir series y peliculas, solo con HTML5 y CSS, sin el uso de librerías y frameworks externos, entre otros detalles.',
+			'Es una plataforma de streaming de contenido digital similiar a HBO, para distribuir series y peliculas, solo con HTML5 y CSS, sin el uso de librerías y frameworks externos, entre otros detalles.',
 		githubLink: 'https://github.com/Maryery/practica-html-css-github',
 		webLink: 'https://maryery.github.io/html-css/index.html',
 		img: hboImg,
 		skills: ['HTML5', 'CCS3'],
-	}
+	},
 ];
 
 export default PROJECTS_INFO;

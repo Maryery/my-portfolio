@@ -14,9 +14,11 @@ const Project = ({ title, img, description, githubLink, webLink, skills }) => (
 					<S.LinkItem href={githubLink} target="_blank">
 						<S.IconItem name="github" size="big" />
 					</S.LinkItem>
-					<S.LinkItem href={webLink} target="_blank">
-						<S.IconItem name="computer" size="big" />
-					</S.LinkItem>
+					{webLink !== null && (
+						<S.LinkItem href={webLink} target="_blank">
+							<S.IconItem name="computer" size="big" />
+						</S.LinkItem>
+					)}
 				</S.ProjectIcons>
 			</S.ProjectHiddenInfo>
 			<S.ProjectTitle>{title}</S.ProjectTitle>
