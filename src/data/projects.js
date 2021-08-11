@@ -5,24 +5,6 @@ import wallaclone from '../assets/images/wallaclone.png';
 
 const PROJECTS_INFO = [
 	{
-		title: 'Coming Soon!',
-		description:
-			'Encuentra tu destino de viaje y toda la infomación que debes saber acerca de las restricciones COVID-19.',
-		githubLink: null,
-		webLink: null,
-		img: commingSoon,
-		skills: ['REACT'],
-	},
-	{
-		title: 'Wallaclone',
-		description:
-			'Es una plataforma que permite la compra y venta de productos de segunda mano, similar a aplicaciones como wallapop, ebay,etc.',
-		githubLink: 'https://github.com/Maryery/wallaclone.git',
-		webLink: null,
-		img: wallaclone,
-		skills: ['MONGO', 'EXPRESS', 'REACT', 'NODE'],
-	},
-	{
 		title: 'Pokémon Bay',
 		description:
 			'Es una aplicación web, que utiliza LA RESTful API de Pokémon (http://pokeapi.co/), la cual te permite encontrar tu pokemon favorito.',
@@ -40,6 +22,24 @@ const PROJECTS_INFO = [
 		img: hboImg,
 		skills: ['HTML5', 'CCS3'],
 	},
+	{
+		title: 'Wallaclone',
+		description:
+			'Es una plataforma que permite la compra y venta de productos de segunda mano, similar a aplicaciones como wallapop, ebay,etc.',
+		githubLink: 'https://github.com/Maryery/wallaclone.git',
+		webLink: null,
+		img: wallaclone,
+		skills: ['MONGO', 'EXPRESS', 'REACT', 'NODE'],
+	},
+	{
+		title: 'Coming Soon!',
+		description:
+			'Encuentra tu destino de viaje y toda la infomación que debes saber acerca de las restricciones COVID-19.',
+		githubLink: null,
+		webLink: null,
+		img: commingSoon,
+		skills: ['REACT'],
+	}
 ];
 
 export default PROJECTS_INFO;
