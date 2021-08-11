@@ -81,7 +81,9 @@ export const AboutMeParagraph = styled.p`
 	text-align: justify;
 `;
 
-export const AboutMeSkills = styled.div``;
+export const AboutMeSkills = styled.div`
+	padding-top: 30px;
+	`;
 
 export const TitleSkills = styled.h2``;
 

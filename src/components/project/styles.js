@@ -114,4 +114,5 @@ export const LinkItem = styled.a`
 
 export const ProjectSkills = styled.div`
 	display: inline-block;
+	padding-right: 0px;
 `;

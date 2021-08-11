@@ -5,8 +5,12 @@ export const Contact = styled.section`
 	flex-direction: column;
 	width: 100%;
 
-	@media all and (max-width: 360px){
-		margin-top: 180px;
+	@media all and (max-width: 450px){
+		margin-top: 125px;
+	}
+
+	@media all and (min-width: 450px){
+		margin-top: 50px;
 	}
 	`;
 
