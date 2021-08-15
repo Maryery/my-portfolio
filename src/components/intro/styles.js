@@ -13,11 +13,12 @@ export const IntroContainer = styled.h1`
 	margin-left: 0px;
 	margin-top: 0px;
 	padding-left: 15px;
-	padding-top: 120px;
+	padding-top: 50%;
 	text-align: left;
 
 	@media all and (min-width: 768px) {
 		font-size: 50px;
+		padding-top: 120px;
 	}
 `;
 
