@@ -41,12 +41,11 @@ export const AboutMeMainInfo = styled.div`
 export const AboutMeImgContainer = styled.div`
 	height: 300px;
 	width: 300px;
-	margin-top: 30px;
- margin-right: 20px;
- border-radius: 100%;
- overflow: hidden;
-
+	border-radius: 50%;
+	overflow: hidden;
 	@media all and (min-width: 768px) {
+		border-radius: 50%;
+		overflow: hidden;
 		height: 400px;
 		width: 400px;
 		margin-top: 90px;
@@ -54,10 +53,10 @@ export const AboutMeImgContainer = styled.div`
 `;
 
 export const ImageItem = styled.img`
+	width: 400px;	
 	height: 100%;
-	width: 100%;
-	object-fit: contain;
-`;
+	object-fit: cover;
+	`;
 
 export const AboutMeTextContainer = styled.div`
 	margin-top: 24px;

@@ -1,6 +1,6 @@
 import React from 'react';
 import * as S from './styles';
-import fotocv from '../../assets/images/fotocv.jpg';
+import fotocv from '../../assets/images/PhotoCvSep21.jpeg';
 
 const AboutMe = () => {
 	return (
@@ -15,8 +15,8 @@ const AboutMe = () => {
 				<S.AboutMeTextContainer>
 					<S.TextTitle>¡Hola!</S.TextTitle>
 					<S.AboutMeParagraph>
-						Mi nombre es <span>Maryery</span>. Soy ingeniera industrial,
-						con años de experiencia en el sector retail y ahora Junior Sotfware
+						Mi nombre es <span>Maryery</span>. Soy ingeniera industrial, con
+						años de experiencia en el sector retail y ahora Junior Sotfware
 						Engineer. Decidí volver a mis orígenes de ingeniera y dar un giro de
 						180 grados, buscando un reto profesional motivador y dinámico a
 						través del bootcamp de desarrollo full stack web de Keepcoding. Soy
@@ -27,10 +27,10 @@ const AboutMe = () => {
 						<S.TitleSkills>Skills</S.TitleSkills>
 						<S.AboutMeSkillsContainer>
 							<S.AboutMeSkillsList>
-							<S.AboutMeSkillsListItem>MONGODB</S.AboutMeSkillsListItem>
-							<S.AboutMeSkillsListItem>EXPRESS</S.AboutMeSkillsListItem>
-							<S.AboutMeSkillsListItem>REACTJS</S.AboutMeSkillsListItem>
-							<S.AboutMeSkillsListItem>NODEJS</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>MONGODB</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>EXPRESS</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>REACTJS</S.AboutMeSkillsListItem>
+								<S.AboutMeSkillsListItem>NODEJS</S.AboutMeSkillsListItem>
 								<S.AboutMeSkillsListItem>HTML5</S.AboutMeSkillsListItem>
 								<S.AboutMeSkillsListItem>CSS3</S.AboutMeSkillsListItem>
 								<S.AboutMeSkillsListItem>INGLES(B2)</S.AboutMeSkillsListItem>
