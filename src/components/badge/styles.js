@@ -6,6 +6,6 @@ export const BadgeContainer = styled.div`
 `;
 
 export const BadgeType = styled.p`
-	color: #ffa18e;;
-	font-size: 16px;
+	color: #ffa18e;
+	font-size: 15px;
 `;

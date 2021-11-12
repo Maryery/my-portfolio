@@ -88,7 +88,7 @@ export const TitleSkills = styled.h2``;
 
 export const AboutMeSkillsContainer = styled.div`
 	margin-right: 50px;
-	font-size: 15px;
+	font-size: 14px;
 	display: flex;
 `;
 

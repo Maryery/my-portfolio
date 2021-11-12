@@ -118,6 +118,7 @@ export const LinkItem = styled.a`
 
 export const ProjectSkills = styled.div`
 	display: inline-block;
+	font-size: 5px;
 	padding-right: 0px;
 `;
 
