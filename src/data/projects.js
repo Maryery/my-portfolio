@@ -1,5 +1,5 @@
 import hboImg from '../assets/images/hbo.png';
-import commingSoon from '../assets/images/comming.jpg';
+import tasksManager from '../assets/images/taskManager.png';
 import pokemonBay from '../assets/images/pokemonBay.png';
 import wallaclone from '../assets/images/wallaclone.png';
 
@@ -32,14 +32,13 @@ const PROJECTS_INFO = [
 		skills: ['MONGO', 'EXPRESS', 'REACT', 'NODE'],
 	},
 	{
-		title: 'Coming Soon!',
-		description:
-			'Encuentra tu destino de viaje y toda la infomación que debes saber acerca de las restricciones COVID-19.',
-		githubLink: null,
+		title: 'Tasks Manager',
+		description: 'Es una aplicación que facilita el manejo de tareas.',
+		githubLink: 'https://github.com/Maryery/task_project.git',
 		webLink: null,
-		img: commingSoon,
-		skills: ['REACT'],
-	}
+		img: tasksManager,
+		skills: ['MONGO', 'EXPRESS', 'REACT', 'NODE'],
+	},
 ];
 
 export default PROJECTS_INFO;
