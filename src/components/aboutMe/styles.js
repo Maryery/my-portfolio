@@ -34,7 +34,8 @@ export const AboutMeMainInfo = styled.div`
 
 	@media all and (min-width: 768px) {
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-around;
+
 	}
 `;
 
@@ -48,7 +49,6 @@ export const AboutMeImgContainer = styled.div`
 		overflow: hidden;
 		height: 400px;
 		width: 400px;
-		margin-top: 90px;
 	}
 `;
 
@@ -59,7 +59,7 @@ export const ImageItem = styled.img`
 	`;
 
 export const AboutMeTextContainer = styled.div`
-	margin-top: 24px;
+	margin-top: 20px;
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -76,13 +76,13 @@ export const AboutMeTextContainer = styled.div`
 export const TextTitle = styled.h1``;
 
 export const AboutMeParagraph = styled.p`
-	margin-top: 30px;
+	margin-top: 15px;
 	text-align: justify;
 `;
 
 export const AboutMeSkills = styled.div`
-	padding-top: 30px;
-	`;
+	padding-top: 5px;
+`;
 
 export const TitleSkills = styled.h2``;
 

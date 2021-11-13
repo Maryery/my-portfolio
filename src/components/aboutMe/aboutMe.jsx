@@ -23,6 +23,21 @@ const AboutMe = () => {
 						una desarrolladora en progreso, amante de la tecnología y de
 						aprender cada día más sobre el mundo digital.
 					</S.AboutMeParagraph>
+					<S.AboutMeParagraph>
+						Creo firmemente de la importancia de la tecnología para el
+						crecimiento y desarrollo de las empresas, ya que ha sido vital para
+						la empresas estar digitalizados o poder hacerlo, para poder
+						continuar ofreciendo sus productos y servicios. Y yo quiero
+						contribuir, a ser parte de esta transformación digital, crecer junto
+						a la empresa y ser partícipe de ese éxito, además porque descubrí lo
+						mucho que me gusta, también porque siempre he soñado con trabajar en
+						el sector IT, construyendo grandes aplicaciones web con mis propias
+						manos, confiando en mis capacidades intelectuales, cosa que genera
+						una adrenalina en mí, que nunca había experimentado, es muy
+						gratificante poder hacer código que se vea reflejado en la web, la
+						verdad me hace sentir que estoy realizando una labor destacada, lo
+						cual me hace sentir muy bien conmigo misma.
+					</S.AboutMeParagraph>
 					<S.AboutMeSkills>
 						<S.TitleSkills>Skills</S.TitleSkills>
 						<S.AboutMeSkillsContainer>
