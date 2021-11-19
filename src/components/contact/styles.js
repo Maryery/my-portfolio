@@ -1,18 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Contact = styled.section`
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-
-	@media all and (max-width: 450px){
-		margin-top: 125px;
-	}
-
-	@media all and (min-width: 450px){
-		margin-top: 50px;
-	}
-	`;
+width: 100%;	
+margin-top:24px;
+`;
 
 export const ContactHeading = styled.h2`
 	font-size: 28px;
@@ -27,9 +18,9 @@ export const ContactText = styled.p`
 	width: 100%;
 	text-align: justify;
 
-	@media all and (min-width: 768px) {
+	@media all and (min-width: 975px) {
 		width: 70%;
-		font-size: 18px;
+		font-size: 14px;
 	}
 `;
 
@@ -50,6 +41,6 @@ export const ContactMailLink = styled.a`
 	}
 
 	@media all and (min-width: 768px) {
-		font-size: 24px;
+		font-size: 16px;
 	}
 `;

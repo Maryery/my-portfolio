@@ -6,6 +6,10 @@ export const ProjectsHeading = styled.h2`
 	margin-top: 0px;
 	font-size: 24px;
 	position: relative;
+
+	@media (max-width: 576px) {
+		font-size: 20px;
+	}
 `;
 
 export const ProjectsContainer = styled.section`

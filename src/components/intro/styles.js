@@ -1,24 +1,34 @@
 import styled from '@emotion/styled';
 
-export const Container= styled.div`
+export const Container = styled.div`
 	height: 100vh;
 	background-color: #f3f2f0;
+	padding-top: 120px;
 `;
 
 export const IntroContainer = styled.h1`
+	background-color: #f3f2f0;	
 	color: #444;
 	display: flex;
-	font-size: 20px;
 	flex-direction: column;
 	margin-left: 0px;
 	margin-top: 0px;
+	padding-top: 50px
 	padding-left: 15px;
-	padding-top: 50%;
 	text-align: left;
+	padding-left: 15px;
+	
+	@media (max-width: 576px) {
+		font-size: 20px;
+	}
 
-	@media all and (min-width: 768px) {
+	@media (min-width:576px) and (max-width: 850px) {
+		font-size: 30px;
+	}
+
+	@media (min-width: 850px) {
 		font-size: 50px;
-		padding-top: 120px;
+		
 	}
 `;
 

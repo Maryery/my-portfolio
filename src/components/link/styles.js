@@ -10,17 +10,21 @@ export const SocialLink = styled.a`
 	border: none;
 	color: #a5a58d;
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 20px;
 	float: left;
 	margin-right: 15px;
 	padding-left: 15px;
 
-	@media all and (max-width: 360px){
+	@media (max-width: 376px){
+		font-size: 9px;
+	}
+
+	@media (min-width: 376px) and (max-width: 576px){
 		font-size: 10px;
 	}
 
-	@media all and (min-width: 768px) {
-		font-size: 18px;
+	@media (min-width: 576px) and (max-width: 768px) {
+		font-size: 15px;
 	}
 
 	&:hover {

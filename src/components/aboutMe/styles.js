@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 export const AboutMeContainer = styled.section`
 	position: relative;
 	height: 100vh;
+	margin-top: 100px;
 	z-index: -1;
 `;
 
@@ -32,7 +33,7 @@ export const AboutMeMainInfo = styled.div`
 	align-items: center;
 	position: relative;
 
-	@media all and (min-width: 768px) {
+	@media all and (min-width: 975px) {
 		flex-direction: row;
 		justify-content: space-around;
 
@@ -44,7 +45,8 @@ export const AboutMeImgContainer = styled.div`
 	width: 300px;
 	border-radius: 50%;
 	overflow: hidden;
-	@media all and (min-width: 768px) {
+
+	@media (min-width: 875px) {
 		border-radius: 50%;
 		overflow: hidden;
 		height: 400px;
@@ -59,13 +61,14 @@ export const ImageItem = styled.img`
 	`;
 
 export const AboutMeTextContainer = styled.div`
-	margin-top: 20px;
+	margin-top: 25px;
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
+	font-size: 14px;
 
-	@media all and (min-width: 768px) {
-		width: 40%;
+	@media all and (min-width: 975px) {
+		width: 65%;
 		font-size: 16px;
 		margin-top: 80px;
 		margin-left: 14px;

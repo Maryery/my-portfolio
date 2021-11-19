@@ -8,4 +8,12 @@ export const BadgeContainer = styled.div`
 export const BadgeType = styled.p`
 	color: #ffa18e;
 	font-size: 15px;
+
+	@media (max-width: 576px) {
+		font-size: 10px;
+	}
+
+	@media (min-width:576px) and (max-width: 850px) {
+		font-size: 11px;
+	}
 `;

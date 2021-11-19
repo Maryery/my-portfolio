@@ -1,7 +1,6 @@
 import styled from '@emotion/styled/macro';
 import { Icon } from 'semantic-ui-react';
 
-
 export const ProjectImageContainer = styled.div`
 	position: absolute;
 	width: 100%;
@@ -97,7 +96,6 @@ export const ProjectHiddenInfo = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	
 
 	@media all and (min-width: 768px) {
 		justify-content: center;
